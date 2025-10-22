@@ -11,6 +11,7 @@ enum class ColorInput(val r: Int, val g: Int, val b: Int) {
 
     fun rgb() = (r*256 + g)*256+b;
     companion object {
+        @JvmStatic
         fun getMnemonic(color: ColorInput) =
             when (color) {
                 ColorInput.RED -> "Richard"

@@ -3,6 +3,7 @@ package com.testkotlin.visibilityExample
 
 //STATIC/NESTED CLASS (No outer reference)
 class InnerClass {
+
     companion object {
         private const val staticField: String = "testValue"
     }
