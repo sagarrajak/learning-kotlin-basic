@@ -3,7 +3,7 @@ package com.testkotlin.visibilityExample
 // public visible everywhere
 class Company(val name: String, val salary: Double)
 
-// inernal only this project
+// internal only this project
 internal class InternalProject(val name: String)
 
 // Private - visible only in this file

@@ -1,7 +1,6 @@
 package com.testkotlin.function_example;
 
 import java.util.List;
-import java.util.Map;
 import java.util.Set;
 
 public class Test {
@@ -11,7 +10,7 @@ public class Test {
                 ",", "[", "]");
 
         String s1 = JoinToStringKt.joinToString(Set.of("kutta, billi"));
-        char test = LastCharKt.lastChar("Test");
+        char test = ClassMemberVisibilityKt.lastChar("Test");
         System.out.println(s);
         System.out.println(test);
         Person person = new Person("Sagar", 12, "Jamshedpor");

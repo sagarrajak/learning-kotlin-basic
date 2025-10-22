@@ -4,7 +4,7 @@ import java.awt.Label
 
 fun main() {
     var onClick = 0;
-    var button = Button("test") {
+    val button = Button("test") {
         onClick++;
         println("button clicked")
     }
